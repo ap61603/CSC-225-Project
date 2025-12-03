@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("chandler.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.85);
+  min-height: 100vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.page-title h1 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.page-title .tagline {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.panel-ufc {
+  border-color: #c20000;
+}
+
+.panel-ufc > .panel-heading {
+  background-color: #c20000;
+  color: #fff;
+  border-color: #c20000;
+}
+
+#output img {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+#output {
+  margin-top: 15px;
+  min-height: 80px;
+}
+
+.footer-text {
+  text-align: center;
+  color: #888;
+  font-size: 12px;
+  margin-top: 30px;
+}
